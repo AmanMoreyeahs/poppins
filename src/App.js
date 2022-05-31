@@ -1,8 +1,9 @@
 import "./App.less";
+import { AppHeader } from "./components/Layout/header";
 function App() {
   return (
     <div>
-      <h1>hello poppins</h1>
+      <AppHeader/>
     </div>
   );
 }
