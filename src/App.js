@@ -1,9 +1,9 @@
 import "./App.less";
-import { AppHeader } from "./components/Layout/header";
+import Routers from "./route";
 function App() {
   return (
     <div>
-      <AppHeader/>
+  <Routers></Routers>
     </div>
   );
 }
