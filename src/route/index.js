@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PublicRoute from "./public.route";
 import PrivateRoute from "./private.route";
 import { ROUTES } from "./constant";
-import { Dashboard } from "../pages/Dashboard/dashboard";
 import { Home } from "../pages/Home/home";
 import AppLayout from "../components/Layout";
 import { MyShop } from "../pages/myShop";
@@ -21,12 +20,12 @@ const Routers = () => {
   const privateRoutes = [
     {
       key: 1,
-      component: Dashboard,
-      path: ROUTES.DASHBOARD,
+      component:Home,
+      path: ROUTES.HOME,
       exact: true,
     },
     {
-      key: 1,
+      key: 2,
       component: MyShop,
       path: ROUTES.MY_SHOP,
       exact: true,

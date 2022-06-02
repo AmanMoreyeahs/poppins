@@ -12,7 +12,6 @@ const SidebarLink = styled(Link)`
   height: 60px;
   text-decoration: none;
   font-size: 15px;
-  //   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 18px;
   &:hover {
@@ -52,7 +51,7 @@ const SubMenu = ({ item }) => {
   return (
     <>
       <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div className="flex-d item-center">
           <div>{item.icon}</div>
           <div>
             <SidebarLabel>{item.title}</SidebarLabel>

@@ -12,7 +12,7 @@ const PrivateRoute = ({ component: Component, ...props }) => {
   return isLogin() ? (
     <Component {...props} />
   ) : (
-    <Navigate replace to={ROUTES.HOME} />
+    <Navigate replace to={ROUTES.INDEX} />
   );
 };
 

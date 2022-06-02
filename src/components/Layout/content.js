@@ -13,11 +13,11 @@ export const AppContent = ({ children }) => {
         minHeight: "calc(100vh - 135px)",
       }}
     >
-      <div style={{ display: "flex",marginTop:"20px", }}>
+      <div className="mt-20 flex-d">
         <div>
           <Sidebar />
         </div>
-        <div style={{height:"100vh",background:"white",width:"100%",margin:"0px 1.2%",borderRadius:"12px"}}>{children}</div>
+        <div className="content-div">{children}</div>
       </div>
     </Content>
   );

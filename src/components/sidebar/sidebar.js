@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { SidebarData } from "./sidebarData";
 import SubMenu from "./subMenu";
 
@@ -10,7 +9,6 @@ const SidebarNav = styled.nav`
   height: 100vh;
   display: flex;
   justify-content: center;
-//   position: fixed;
   top: 1;
   transition: 350ms;
   z-index: 10;

@@ -3,7 +3,6 @@ import { Layout } from "antd";
 import { AppHeader } from "./header";
 import { AppContent } from "./content";
 import "./index.css";
-import Sidebar from "../sidebar/sidebar";
 
 const AppLayout = ({ children }) => {
   return (
