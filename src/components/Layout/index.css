@@ -1,0 +1,25 @@
+.header {
+  padding: 1.2% 1.5%;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e37826;
+}
+.poppin-logo {
+  width: 86px;
+  height: 25px;
+  background: white;
+}
+.icon-div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: center;
+}
+.head-icon {
+  font-size: 25px;
+  color: white;
+}

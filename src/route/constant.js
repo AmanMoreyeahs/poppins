@@ -1,4 +1,6 @@
 export const ROUTES = {
-  HOME: "/",
+  INDEX: "/",
   DASHBOARD: "/dashboard",
+  HOME: "/home",
+  MY_SHOP: "/myshop",
 };
