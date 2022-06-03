@@ -8,11 +8,6 @@
   justify-content: space-between;
   background-color: #e37826;
 }
-.poppin-logo {
-  width: 86px;
-  height: 25px;
-  background: white;
-}
 .icon-div {
   display: flex;
   flex-direction: row;
@@ -23,10 +18,25 @@
   font-size: 25px;
   color: white;
 }
+.poppin-logo {
+  width: 86px;
+  height: 25px;
+  background: white;
+}
 .content-div {
-  height: 100vh!important;
-  background: white!important;
-  width: 100%!important;
-  margin: 0px 1.2%!important;
-  border-radius: 12px!important;
+  height: 100vh !important;
+  background: white !important;
+  width: 100% !important;
+  margin: 0px 1.2% !important;
+  border-radius: 12px !important;
+}
+.footer-section {
+  background: #f4f5fd;
+}
+.footer-title {
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 46px;
+  text-align: center;
+  font-weight: 500;
 }

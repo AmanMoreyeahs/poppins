@@ -13,7 +13,7 @@ export const AppContent = ({ children }) => {
         minHeight: "calc(100vh - 135px)",
       }}
     >
-      <div className="mt-20 flex-d">
+      <div className="mt-20 flex-d mb-20">
         <div>
           <Sidebar />
         </div>
