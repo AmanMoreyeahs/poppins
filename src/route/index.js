@@ -6,6 +6,7 @@ import { ROUTES } from "./constant";
 import { Home } from "../pages/Home/home";
 import AppLayout from "../components/Layout";
 import { MyShop } from "../pages/myShop";
+import { CreateCatalog } from "../pages/myShop/catalog/createCatalog";
 
 const Routers = () => {
   const publicRoutes = [
@@ -20,7 +21,7 @@ const Routers = () => {
   const privateRoutes = [
     {
       key: 1,
-      component:Home,
+      component: Home,
       path: ROUTES.HOME,
       exact: true,
     },
@@ -28,6 +29,12 @@ const Routers = () => {
       key: 2,
       component: MyShop,
       path: ROUTES.MY_SHOP,
+      exact: true,
+    },
+    {
+      key: 3,
+      component: CreateCatalog,
+      path: ROUTES.CREATE_CATALOG,
       exact: true,
     },
   ];

@@ -6,8 +6,11 @@ import {
 } from "@ant-design/icons";
 import { Button } from "antd";
 import { PNG } from "../../assets";
+import { useNavigate } from "react-router-dom";
+import { ROUTES } from "../../route/constant";
 
 export const MyShop = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="shop-header">
@@ -38,7 +41,12 @@ export const MyShop = () => {
           </div>
           <div className="shop-button-section">
             <div>
-              <Button className="shop-button">Create Catalog</Button>
+              <Button
+                className="shop-button"
+                onClick={() => navigate(ROUTES.CREATE_CATALOG)}
+              >
+                Create Catalog
+              </Button>
             </div>
             <div>
               <Button className="shop-button">
